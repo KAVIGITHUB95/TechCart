@@ -1,0 +1,11 @@
+.kickcartnav {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    /* background: linear-gradient(to top, #E0EAF3 30%, #CFCEF3); */
+    border-radius: 20px;                 /*  Rounded corners */
+    backdrop-filter: blur(20px);         /* Frosted blur effect */
+    -webkit-backdrop-filter: blur(20px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    
+    padding: 15px;
+}

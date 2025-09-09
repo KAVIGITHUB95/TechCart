@@ -1,0 +1,32 @@
+.textoverlay {
+    /* color: white; */
+    background: rgba(0, 0, 0, 0.3);  /* Semi-transparent dark background */
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);     /* Optional: adds glassy effect */
+    /* max-width: 500px; */
+}
+
+.glass {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    /* background: linear-gradient(to top, #E0EAF3 30%, #CFCEF3); */
+    border-radius: 16px;                 /* Rounded corners */
+    backdrop-filter: blur(10px);         /* Frosted blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-transform-style: preserve-3d;
+    
+    transform-style: preserve-3d;
+    
+    z-index: 100;
+    transition: 2s;
+    transform: translateY(-50%);
+    /* color: white; */
+}
